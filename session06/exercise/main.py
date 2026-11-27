@@ -30,8 +30,19 @@ MODEL = os.getenv('OPENAI_MODEL', 'gpt-6-luna')
 # 文章をベクトルにするモデル。資料と質問は、必ず同じモデルでベクトルにする。
 EMBEDDING_MODEL = os.getenv('EMBEDDING_MODEL', 'text-embedding-3-small')
 
-# LLMに渡す資料の最大件数。
+# LL
+#
+#
+#
+#
+#
+#
+#
+#
+#
+# Mに渡す資料の最大件数。
 TOP_K = 3
+
 
 # これより類似度が小さい資料は、関係が薄いとみなして渡さない。
 # 目安の値なので、画面に出る類似度を見ながら調整する。
